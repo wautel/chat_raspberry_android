@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wautel_l.raspberry_chat.ServerActivity"
+    android:orientation="vertical"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:paddingTop="60dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue !"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="l'IP de votre rasberry"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ip"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="le port de connexion"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/port"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/go"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:text="GO"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
